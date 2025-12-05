@@ -1,0 +1,6 @@
+name: "Exclude test and GitHub directories"
+
+paths-ignore:
+  - test/**
+  - tests/**
+  - .github/**
