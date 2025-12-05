@@ -60,7 +60,7 @@ jobs:
       
     - name: Run Grype
       run: |
-        ./bin/grype dir:. --exclude .github --fail-on high
+         ./bin/grype dir:. --exclude .github --fail-on high
 
      
      
